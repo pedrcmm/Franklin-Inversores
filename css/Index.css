@@ -1,0 +1,174 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.quienes-somos {
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url('../img/Quienessomos2.png'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    color: white;
+    overflow: hidden;
+    gap: 30px; /* Espacio entre texto e imagen */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Capa oscura */
+    z-index: 1;
+}
+
+.contenido {
+    position: relative;
+    z-index: 2;
+    max-width: 60%; /* Ajustar ancho del contenido */
+}
+
+.contenido h1 {
+    font-size: 56px; /* Título más grande */
+    margin-bottom: 10px;
+}
+
+.linea-titulo {
+    width:35em;
+    height: 8px;
+    background-color: white; /* Línea blanca */
+    border: none;
+    margin-bottom: 80px;
+}
+
+.contenido p {
+    font-size: 25px; /* Texto más grande */
+    line-height: 1.8;
+    
+}
+
+.imagen-redonda {
+    position: relative;
+    z-index: 2;
+    width: 3000px; /* Tamaño del círculo */
+    height: 280px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para la imagen */
+    margin-left: -50px; /* para acercar más al texto */
+}
+
+.imagen-redonda img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilo global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('fondo-mvv.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Misión, Visión y Valores */
+.seccion-mvv {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro transparente */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    top: 145%;
+}
+
+.titulo-mvv {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('fondo-mvv.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.seccion-inversores {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con transparencia */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.seccion-inversores h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de la sección de Inversores */
+.contenido-inversores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Texto de la izquierda */
+.texto-inversores {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+/* Contenedor de las imágenes */
+.imagenes-inversores {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    grid-template-rows: repeat(2, 200px); /* Dos filas */
+    gap: 10px;
+    flex: 1;
+    max-width: 200px;
+}
+
+.img-large {
+    grid-column: span 2; /* Ocupa dos columnas */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid yellow;
+    border-radius: 5px;
+}
+
+.img-small {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid yellow;
+    border-radius: 5px;
+}
+
